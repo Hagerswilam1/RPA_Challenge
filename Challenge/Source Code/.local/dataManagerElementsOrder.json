@@ -1,0 +1,114 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NewActivity.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtExtractedData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPA_Challenge_SaveFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "windowExists&Sequence_20",
+        "boolFileExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut",
+        "in_strPath"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPA_Challenge_WriteFields.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_20",
+        "boolPostExists&Sequence_21"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_dtData",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPA_Challenge_Close_Web.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_23"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPA_Challenge_ReadFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolFileExists&Sequence_20"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "out_dtChallengeData",
+        "in_strPath"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPA_Challenge_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPA_Challenge_DownloadFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
